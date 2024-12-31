@@ -1,7 +1,7 @@
 // public/script.js
 document.addEventListener("DOMContentLoaded", () => {
   const messageForm = document.getElementById("messageForm");
-  const toInput = document.getElementById("FromInput");
+  const toInput = document.getElementById("ToInput");
   const messageInput = document.getElementById("messageInput");
   const notesContainer = document.getElementById("notesContainer");
 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     messages.forEach(({ to, message }) => {
       const note = document.createElement("div");
       note.className = "note";
-      note.innerHTML = `<div class="to">From: ${to}</div><p>${message}</p>`;
+      note.innerHTML = `<div class="to">To: ${to}</div><p>${message}</p>`;
       notesContainer.appendChild(note);
     });
   }
