@@ -6,8 +6,8 @@ const app = express();
 const PORT = 3000;
 
 // MongoDB URI and Target Database/Collection Configuration
-const mongoUri = 'mongodb+srv://tristanhernandez006:BGvkTlbIHG3l0rSV@freedomwall.y8wem.mongodb.net/?retryWrites=true&w=majority&appName=Freedomwall';  // Replace with your MongoDB URI
-const dbName = 'Freedomwall';
+const mongoUri = 'mongodb+srv://miro:passwor1@1.xitjk.mongodb.net/?retryWrites=true&w=majority&appName=1';  // Replace with your MongoDB URI
+const dbName = 'miao';
 const collectionName = 'messages';
 
 let db, messagesCollection;
