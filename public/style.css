@@ -13,12 +13,13 @@
 
 .content {
   position: fixed;
+  size: 50%;
   top: 50px;
 }
 
 .content h2 {
   color: #fff;
-  font-size: 8em;
+  font-size: 4em;
   position: absolute;
   transform: translate(-50%, -50%);
 }
