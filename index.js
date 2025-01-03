@@ -3,7 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { MongoClient } = require('mongodb');
 const app = express();
-const PORT = 3000;
+const PORT = 10000;
 
 // MongoDB URI and Target Database/Collection Configuration
 const mongoUri = 'mongodb+srv://miro:passwor1@1.xitjk.mongodb.net/?retryWrites=true&w=majority&appName=1';  // Replace with your MongoDB URI
